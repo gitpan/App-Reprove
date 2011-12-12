@@ -26,3 +26,14 @@ dist:v_0-002
 		dcs:item   [ rdfs:label "Change disambiguation technique for module versus release, as Getopt::Long handles plus signs as magic."@en ] ;
 		dcs:item   [ rdfs:label "Invocant for BUILDARGS is a ClassName."@en ; a dcs:Bugfix ]
 		] .
+
+dist:project :release dist:v_0-003 .
+dist:v_0-003
+	a               :Version ;
+	dc:issued       "2011-12-12"^^xsd:date ;
+	:revision       "0.003"^^xsd:string ;
+	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/App-Reprove-0.003.tar.gz> ;
+	dcs:changeset [
+		dcs:versus dist:v_0-002 ;
+		dcs:item   [ rdfs:label "Correct Module::Reprove class name in SYNOPSIS."@en ; a dcs:Documentation ]
+		] .

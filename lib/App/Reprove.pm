@@ -7,7 +7,7 @@ use MooseX::Declare;
 
 BEGIN {
 	$App::Reprove::AUTHORITY = 'cpan:TOBYINK';
-	$App::Reprove::VERSION   = '0.002';
+	$App::Reprove::VERSION   = '0.003';
 }
 
 class App::Reprove

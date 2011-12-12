@@ -8,7 +8,7 @@ use MooseX::Declare;
 BEGIN
 {
 	$Module::Reprove::AUTHORITY = 'cpan:TOBYINK';
-	$Module::Reprove::VERSION   = '0.001';
+	$Module::Reprove::VERSION   = '0.003';
 }
 
 class Module::Reprove
@@ -177,7 +177,7 @@ Module::Reprove - download a distribution's tests and prove them
 
 =head1 SYNOPSIS
 
- my $test = CPAN::Retest->new(
+ my $test = Module::Reprove->new(
     author  => 'TOBYINK',
     release => 'Object-AUTHORITY',
     version => '0.003',

@@ -5,6 +5,10 @@ Created:      2011-12-12
 Home page:    <https://metacpan.org/release/App-Reprove>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=App-Reprove>
 
+0.003  2011-12-12
+
+ - (Documentation) Correct Module::Reprove class name in SYNOPSIS.
+
 0.002  2011-12-12
 
  - Change disambiguation technique for module versus release, as
