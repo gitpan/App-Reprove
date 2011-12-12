@@ -10,9 +10,9 @@
 	:test_requires "IO::Scalar" ;
 	:requires "autodie" ;
 	:requires "common::sense" ;
-	:requires "MooseX::Declare" ;
+	:requires "MooseX::Declare 0.34" ;
 	:requires "MooseX::Getopt" ;
-	:requires "Object::AUTHORITY" ;
+	:requires "Object::AUTHORITY 0.003" ;
 	:requires "App::Prove" ;
 	:requires "Class::Load" ;
 	:requires "JSON 2.00" ;

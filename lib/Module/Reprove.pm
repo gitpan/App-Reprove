@@ -32,7 +32,7 @@ class Module::Reprove
 	has testdir   => (is => 'ro', isa => 'File::Temp::Dir', lazy => 1, builder => '_build_testdir');
 	has verbose   => (is => 'rw', isa => 'Bool', required => 1, default => 0);
 	
-	method BUILDARGS ($class: @args)
+	method BUILDARGS (ClassName $class: @args)
 	{
 		my %args;
 		if (@args == 1 and ref $args[0])

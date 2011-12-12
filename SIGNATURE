@@ -14,13 +14,14 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 3cc5aa2eff13936bfc159ac82b4bb51a9d5918ce Changes
+SHA1 0fd4f8ca979561402228d3d96b3cc1b387e29980 Changes
 SHA1 f3296a09eb07898f3ba6dd0ece615dafc1b57e16 LICENSE
-SHA1 b7685dec596013cf96a2b34815761f1be36a6b38 MANIFEST
-SHA1 7f5fed0c2e221ce4854135d45cf40b3303d6185a META.yml
+SHA1 d65e137bb1fcfe794dc4ab984542359a272896d7 MANIFEST
+SHA1 44e711a733ee160000713f6de92d0c1626e6b78b META.yml
 SHA1 7150e5e086ef493e1e527a1eeec44a8344b80db6 Makefile.PL
 SHA1 d3f304ae9d8b882064546ff12b9d470b731a6b29 README
-SHA1 7cf1bcfe7d21540b333287fe7f4f5098798af46d bin/reprove
+SHA1 65963945fd5c01f60a30a77c27a3c0c5dfbab913 TODO
+SHA1 f1bf7438d899410e54e268122798b9343291300b bin/reprove
 SHA1 5d94bc10deff1dd74e4bc5dfa6fc015e39271f15 inc/Module/AutoInstall.pm
 SHA1 40106479d4e07f379cb82ca1d69fca92e3a40f47 inc/Module/Install.pm
 SHA1 34a24a530ecf0365cc02e4150b06c9bed702a441 inc/Module/Install/AutoInstall.pm
@@ -41,17 +42,17 @@ SHA1 6b807287940754cc31a3db59f2b22e363d5525be inc/Module/Package/Dist/RDF.pm
 SHA1 775bd24f2fdbb6dce51a8b5b0cdb01fccfce83c4 inc/Scalar/Util.pm
 SHA1 b1b664983568bf822c327599eb88e223483ae96a inc/Scalar/Util/PP.pm
 SHA1 eef6bff62046bff2ce08ba132d0b58fba30f40b4 inc/YAML/Tiny.pm
-SHA1 7500518bbdf1de86aedf7d7380485646da2b1aae lib/App/Reprove.pm
-SHA1 d1cccea8e5f89728949cd7de97a50eaeb4a9496a lib/Module/Reprove.pm
-SHA1 e3576f99b804fdea725b658a40d1648a31f2a322 meta/changes.ttl
-SHA1 d18152648c40f6654f1b798c1fb4c9ab6dedcea4 meta/doap.ttl
-SHA1 b597fc16853a062a8940e4dd651af48bbeecbd8a meta/makefile.ttl
+SHA1 3ec59bf209590e9846626c26c1ed7e2b54556941 lib/App/Reprove.pm
+SHA1 588a76b6ce7a9426798af63feec4a72c615ee809 lib/Module/Reprove.pm
+SHA1 e2e4a5cb5afd6321fe4b924ecca30e7f1c3fb03d meta/changes.ttl
+SHA1 8cfa0ebd017c7e41b60287f73af69ad9c7f7f60c meta/doap.ttl
+SHA1 03dae8633eb52a0fd556108e3c6b0efd1e51174c meta/makefile.ttl
 SHA1 9f03f4973c213a430d2c784f51c276b0ce3dce1f t/01basic.t
 SHA1 8a715cacd25f1e97e351a8eeb4200221a8c6e637 t/02reprove.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAk7mBbsACgkQzr+BKGoqfTnAhACgnNlgpJJs95rwR4bDR4qm0KBD
-OKwAoJ9BXfGTvdh3xvUMp792jT1otKjL
-=5Kwn
+iEYEARECAAYFAk7mhh4ACgkQzr+BKGoqfTlOQACfbcvCmNZb4eRCgMdqBI++wnBc
+34wAn17ycmxCZHQT7dpNIIPMVAMc0Mie
+=ftOR
 -----END PGP SIGNATURE-----

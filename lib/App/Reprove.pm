@@ -7,12 +7,11 @@ use MooseX::Declare;
 
 BEGIN {
 	$App::Reprove::AUTHORITY = 'cpan:TOBYINK';
-	$App::Reprove::VERSION   = '0.001';
+	$App::Reprove::VERSION   = '0.002';
 }
 
 class App::Reprove
 	with MooseX::Getopt
-	# mocks Module::Reprove
 {
 	use Module::Reprove;
 	use Object::AUTHORITY qw/AUTHORITY/;
@@ -47,13 +46,13 @@ class App::Reprove
 		unless (defined $self->release or defined $self->module)
 		{
 			$release //= '';
-			if ($release =~ /::/)
-			{
-				$self->module($release);
-			}
-			elsif ($release =~ /^\+(.+)$/)
+			if ($release =~ /^::(.+)$/)
 			{
 				$self->module($1);
+			}
+			elsif ($release =~ /::/)
+			{
+				$self->module($release);
 			}
 			elsif (length $release)
 			{

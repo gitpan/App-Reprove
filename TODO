@@ -1,0 +1,4 @@
+- Switch from LWP::Simple to LWP::UserAgent, simply because it will 
+  allow the use of a custom user-agent string.
+
+- Be smarter at figuring out an appropriate release and author.

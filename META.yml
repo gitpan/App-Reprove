@@ -1,5 +1,5 @@
 ---
-abstract: 'a module that does something-or-other'
+abstract: "download a distribution's tests and prove them"
 author:
   - 'Toby Inkster <tobyink@cpan.org>'
 build_requires:
@@ -36,9 +36,9 @@ requires:
   JSON: 2.00
   LWP::Simple: 0
   Module::Manifest: 0
-  MooseX::Declare: 0
+  MooseX::Declare: 0.34
   MooseX::Getopt: 0
-  Object::AUTHORITY: 0
+  Object::AUTHORITY: 0.003
   autodie: 0
   common::sense: 0
   perl: 5.10.0
@@ -47,4 +47,4 @@ resources:
   homepage: https://metacpan.org/release/App-Reprove
   license: http://dev.perl.org/licenses/
   repository: https://bitbucket.org/tobyink/p5-app-reprove
-version: 0.001
+version: 0.002

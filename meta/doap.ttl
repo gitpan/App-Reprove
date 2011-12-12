@@ -10,7 +10,7 @@
 	a               :Project ;
 	:programming-language "Perl" ;
 	:name           "App-Reprove" ;
-	:shortdesc      "a module that does something-or-other" ;
+	:shortdesc      "download a distribution's tests and prove them" ;
 	:homepage       <https://metacpan.org/release/App-Reprove> ;
 	:download-page  <https://metacpan.org/release/App-Reprove> ;
 	:bug-database   <http://rt.cpan.org/Dist/Display.html?Queue=App-Reprove> ;

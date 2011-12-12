@@ -47,7 +47,7 @@ version and author.
 
 If this script needs to disambiguate between a release and a module,
 it assumes anything containing "::" is a module, and everything else
-is a release. A prefix of "+" forces the string to be treated as a
+is a release. A prefix of "::" forces the string to be treated as a
 module.
 
 =head1 BUGS
