@@ -1,0 +1,28 @@
+# This file provides instructions for packaging.
+
+@prefix : <http://purl.org/NET/cpan-uri/terms#> .
+
+<http://purl.org/NET/cpan-uri/dist/App-Reprove/project>
+	:perl_version_from _:main ;
+	:version_from _:main ;
+	:readme_from _:main ;
+	:test_requires "Test::More 0.61" ;
+	:test_requires "IO::Scalar" ;
+	:requires "autodie" ;
+	:requires "common::sense" ;
+	:requires "MooseX::Declare" ;
+	:requires "MooseX::Getopt" ;
+	:requires "Object::AUTHORITY" ;
+	:requires "App::Prove" ;
+	:requires "Class::Load" ;
+	:requires "JSON 2.00" ;
+	:requires "File::Basename" ;
+	:requires "File::pushd" ;
+	:requires "File::Path" ;
+	:requires "File::Spec" ;
+	:requires "File::Temp" ;
+	:requires "LWP::Simple" ;
+	:requires "Module::Manifest" .
+
+_:main <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#fileName> "lib/App/Reprove.pm" .
+

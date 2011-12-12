@@ -1,0 +1,61 @@
+NAME
+    App::Reprove - command-line processing for Module::Reprove
+
+SYNOPSIS
+    In "bin/reprove":
+
+      #!/usr/bin/perl
+      App::Reprove->new_with_options->run;
+
+    And at the command line:
+
+      ./bin/reprove --verbose \
+        --author="TOBYINK" \
+        --release="Object-AUTHORITY" \
+        --version="0.001"
+
+DESCRIPTION
+    This module provides a "new_with_options" constructor, courtesy of
+    MooseX::Getopt, but otherwise mocks Module::Reprove using delegation.
+
+  Constructors
+    "new(%attributes)"
+    "new_with_options()"
+
+  Attributes
+    "release"
+    "module"
+    "version"
+    "author"
+    "verbose"
+    "testdir"
+
+  Methods
+    "does"
+        Over-ridden from Moose::Object to allow
+        "App::Reprove->does('Module::Reprove')".
+
+    "test_files"
+    "run"
+
+BUGS
+    Please report any bugs to
+    <http://rt.cpan.org/Dist/Display.html?Queue=App-Reprove>.
+
+SEE ALSO
+    reprove, Module::Reprove.
+
+AUTHOR
+    Toby Inkster <tobyink@cpan.org>.
+
+COPYRIGHT AND LICENCE
+    This software is copyright (c) 2011 by Toby Inkster.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
+DISCLAIMER OF WARRANTIES
+    THIS PACKAGE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED
+    WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
+    MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+

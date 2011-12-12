@@ -1,0 +1,50 @@
+---
+abstract: 'a module that does something-or-other'
+author:
+  - 'Toby Inkster <tobyink@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  IO::Scalar: 0
+  Test::More: 0.61
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.02'
+keywords:
+  - QA
+  - prove
+  - testing
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: App::Reprove
+name: App-Reprove
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+requires:
+  App::Prove: 0
+  Class::Load: 0
+  File::Basename: 0
+  File::Path: 0
+  File::Spec: 0
+  File::Temp: 0
+  File::pushd: 0
+  JSON: 2.00
+  LWP::Simple: 0
+  Module::Manifest: 0
+  MooseX::Declare: 0
+  MooseX::Getopt: 0
+  Object::AUTHORITY: 0
+  autodie: 0
+  common::sense: 0
+  perl: 5.10.0
+resources:
+  bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=App-Reprove
+  homepage: https://metacpan.org/release/App-Reprove
+  license: http://dev.perl.org/licenses/
+  repository: https://bitbucket.org/tobyink/p5-app-reprove
+version: 0.001
