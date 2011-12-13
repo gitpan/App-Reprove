@@ -14,10 +14,10 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 9283a3aaf3c796bd100ac17cd3b4614597cc6291 Changes
+SHA1 0426095923d52cbc288b286ac7630be5eb532b59 Changes
 SHA1 f3296a09eb07898f3ba6dd0ece615dafc1b57e16 LICENSE
 SHA1 d65e137bb1fcfe794dc4ab984542359a272896d7 MANIFEST
-SHA1 bdd421feb819940b560db34d4ab59bc6931d52ff META.yml
+SHA1 f735ed3af8faa66f39d6f36f79498e5fa1315c6e META.yml
 SHA1 7150e5e086ef493e1e527a1eeec44a8344b80db6 Makefile.PL
 SHA1 d3f304ae9d8b882064546ff12b9d470b731a6b29 README
 SHA1 65963945fd5c01f60a30a77c27a3c0c5dfbab913 TODO
@@ -42,17 +42,17 @@ SHA1 6b807287940754cc31a3db59f2b22e363d5525be inc/Module/Package/Dist/RDF.pm
 SHA1 775bd24f2fdbb6dce51a8b5b0cdb01fccfce83c4 inc/Scalar/Util.pm
 SHA1 b1b664983568bf822c327599eb88e223483ae96a inc/Scalar/Util/PP.pm
 SHA1 eef6bff62046bff2ce08ba132d0b58fba30f40b4 inc/YAML/Tiny.pm
-SHA1 9cb7a528389f92e4f8ce2978fb47ee60da97ecc7 lib/App/Reprove.pm
-SHA1 ff440d07171f1f24527c8de1e3fb3a9d5c591bed lib/Module/Reprove.pm
-SHA1 0131d6777571dc529bacab80e4069a75ca54a66c meta/changes.ttl
+SHA1 a1cdcb7a809a1d56b38251d351c6f726a08f408b lib/App/Reprove.pm
+SHA1 ed8d799ddd92f7b0468f0a062a57e0786a984413 lib/Module/Reprove.pm
+SHA1 aea77730bbd9e55aa8c18649f343cda5e38b33c9 meta/changes.ttl
 SHA1 8cfa0ebd017c7e41b60287f73af69ad9c7f7f60c meta/doap.ttl
 SHA1 03dae8633eb52a0fd556108e3c6b0efd1e51174c meta/makefile.ttl
 SHA1 9f03f4973c213a430d2c784f51c276b0ce3dce1f t/01basic.t
-SHA1 8a715cacd25f1e97e351a8eeb4200221a8c6e637 t/02reprove.t
+SHA1 9fcc3281bb3adc3c4fb76d8458c1364e276edd54 t/02reprove.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAk7mjRMACgkQzr+BKGoqfTnotwCfaDusqWO3/VsDcb7R4BO5L5Uq
-AlUAnRZsngRqTrtPBAbhZkfUyprHIqVy
-=XwEN
+iEYEARECAAYFAk7nbX0ACgkQzr+BKGoqfTnwBQCghQL39nCpcTkqfuj2+2IDkByI
+i3sAniOFR1muyXcpkgDGxPiED69/2Qg1
+=0bhF
 -----END PGP SIGNATURE-----

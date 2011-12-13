@@ -7,7 +7,7 @@ use MooseX::Declare;
 
 BEGIN {
 	$App::Reprove::AUTHORITY = 'cpan:TOBYINK';
-	$App::Reprove::VERSION   = '0.003';
+	$App::Reprove::VERSION   = '0.004';
 }
 
 class App::Reprove
@@ -89,6 +89,8 @@ class App::Reprove
 		printf("Using temp dir '%s'\n", $r->testdir->dirname) if $self->verbose;
 		$r->run;
 	}
+	
+	method dummy {}
 }
 
 1;

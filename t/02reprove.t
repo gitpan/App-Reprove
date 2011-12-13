@@ -25,10 +25,12 @@ class Local::Test::Mocking::Module::Reprove
 		}
 	}
 
-	sub _app_prove_args
+	method _app_prove_args
 	{
 		return ('-Q', 't');
 	}
+	
+	method dummy {}
 }
 
 my $r1 = Local::Test::Mocking::Module::Reprove->new(

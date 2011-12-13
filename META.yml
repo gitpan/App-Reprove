@@ -47,4 +47,4 @@ resources:
   homepage: https://metacpan.org/release/App-Reprove
   license: http://dev.perl.org/licenses/
   repository: https://bitbucket.org/tobyink/p5-app-reprove
-version: 0.003
+version: 0.004

@@ -8,7 +8,7 @@ use MooseX::Declare;
 BEGIN
 {
 	$Module::Reprove::AUTHORITY = 'cpan:TOBYINK';
-	$Module::Reprove::VERSION   = '0.003';
+	$Module::Reprove::VERSION   = '0.004';
 }
 
 class Module::Reprove
@@ -32,8 +32,10 @@ class Module::Reprove
 	has testdir   => (is => 'ro', isa => 'File::Temp::Dir', lazy => 1, builder => '_build_testdir');
 	has verbose   => (is => 'rw', isa => 'Bool', required => 1, default => 0);
 	
-	method BUILDARGS (ClassName $class: @args)
+	sub BUILDARGS
 	{
+		my ($class, @args) = @_;
+		
 		my %args;
 		if (@args == 1 and ref $args[0])
 		{
@@ -165,6 +167,8 @@ class Module::Reprove
 		$app->verbose(1) if $self->verbose;
 		$app->run;
 	}
+	
+	method dummy {}
 }
 
 1;
@@ -262,6 +266,14 @@ Returns a list of test case files, based on the contents of the manifest.
 Runs the test using C<< App::Prove::run >> and returns whatever L<App::Prove>
 would have returned, which is undocumented but appears to be false if there
 are test failures, and true if all tests pass.
+
+=begin private
+
+=item C<< BUILDARGS >>
+
+Moose stuff.
+
+=end private
 
 =back
 

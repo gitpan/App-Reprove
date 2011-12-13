@@ -5,6 +5,11 @@ Created:      2011-12-12
 Home page:    <https://metacpan.org/release/App-Reprove>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=App-Reprove>
 
+0.004  2011-12-13
+
+ - (Bugfix) Hopefully resolve problems instantiating Module::Reprove in
+   Perl 5.12 and 5.14.
+
 0.003  2011-12-12
 
  - (Documentation) Correct Module::Reprove class name in SYNOPSIS.
